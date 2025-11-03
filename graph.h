@@ -17,6 +17,8 @@ using namespace std;
 
 class Graph {
 private:
+  bool directionalEdges;
+  map<string, map<string, int>> adjNodes;
 public:
   // constructor, empty graph
   explicit Graph(bool directionalEdges = true);
