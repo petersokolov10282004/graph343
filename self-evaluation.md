@@ -7,13 +7,12 @@ Out of 20 points. Use output.txt created using
 
 Complete all questions with "Q:"
 
-Q: Does the program compile and run to completion: Yes/No
+Q: Does the program compile and run to completion: Yes
 
 - If the program does not compile or gives a segmentation error when run, 
 the maximum possible grade is 50%. No need to continue with the rest of self-evaluation
 
-Q: All public functions have been implemented: ENTER_NUMBER
-
+Q: All public functions have been implemented: ENTER_NUMBER 0
 - -1 for each public function not implemented
 - Constructors:  Graph()
 - Destructor: ~Graph()
@@ -21,36 +20,36 @@ Q: All public functions have been implemented: ENTER_NUMBER
 - Modifiers: add, connect, disconnect, readFile
 - Algorithms: dfs, bfs, dijkstra, mstPrim
 
-Q: Bonus function - mstKruskal: ENTER_NUMBER
+Q: Bonus function - mstKruskal: ENTER_NUMBER 0
 
 - +1 if Minimum Spanning Tree using Kruskal's algorithm has been implemented
 
-Q: -1 for each compilation warning, min -3: ENTER_NUMBER
+Q: -1 for each compilation warning, min -3: ENTER_NUMBER 0
 
 - Check under *1. Compiles without warnings*
 - If the warning message is addressed in README.md, including how the programmer tried to address it, no deductions
 
-Q: -1 for each clang-tidy warning, min -3: ENTER_NUMBER
+Q: -1 for each clang-tidy warning, min -3: ENTER_NUMBER I think something is off but I have 26334 and I dont know how to spot them
 
 - Check under *3. clang-tidy warnings*
 - If the warning message is addressed in README.md, including how the programmer tried to address it, no deductions
 
-Q: -1 for each clang-format warning, min -3: ENTER_NUMBER
+Q: -1 for each clang-format warning, min -3: ENTER_NUMBER 0
 
 - Check under *4. clang-format does not find any formatting issues*
 
-Q: Runs and produces correct output: ENTER_NUMBER
+Q: Runs and produces correct output: ENTER_NUMBER 0
 
 - Try running "./a.out". assert statement should test the code
 
-Q: -2 for any detected memory leak: ENTER_NUMBER
+Q: -2 for any detected memory leak: ENTER_NUMBER 0
 
 - Check under *5. No memory leaks using g++*
 - Check under *6. No memory leaks using valgrind*
 
-Q: Are all functions in .h and .cpp file documented (min -3): ENTER_NUMBER
+Q: Are all functions in .h and .cpp file documented (min -3): ENTER_NUMBER 0
 
 - You need at least 1-line of comments
 - -1 for each function not documented
 
-Q: Total points: ADD_ALL_POINTS
+Q: Total points: ADD_ALL_POINTS 20

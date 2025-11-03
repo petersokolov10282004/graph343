@@ -81,7 +81,7 @@ void testGraph0DFS() {
   assert(g.getEdgesAsString("C").empty());
 
   g.dfs("A", vertexPrinter);
-  //cout << globalSS.str() << "nothing" << endl;
+  // cout << globalSS.str() << "nothing" << endl;
   assert(globalSS.str() == "ABC" && "starting from A");
 
   globalSS.str("");
@@ -130,9 +130,9 @@ void testGraph0Dijkstra() {
   map<string, int> weights;
   map<string, string> previous;
   tie(weights, previous) = g.dijkstra("A");
-  //cout << "Dijkstra(A) weights is " << map2string(weights) << endl;
+  // cout << "Dijkstra(A) weights is " << map2string(weights) << endl;
   assert(map2string(weights) == "[B:1][C:4]" && "Dijkstra(A) weights");
-  //cout << "Dijkstra(A) previous is " << map2string(previous) << endl;
+  // cout << "Dijkstra(A) previous is " << map2string(previous) << endl;
   assert(map2string(previous) == "[B:A][C:B]" && "Dijkstra(A) previous");
   tie(weights, previous) = g.dijkstra("B");
   cout << map2string(weights) << endl;
